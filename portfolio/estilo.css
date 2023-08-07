@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(221, 238, 236);
+    margin-left: 20%;
+    margin-right: 20%;
+    background-size: 100%;
+}
+
+
+#foto {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 200%;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(41, 40, 40);
+    width: 70%;
+    margin-left: 20%;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: bold;
+    color: rgb(16, 26, 80);
+}
+
+
+ul#menu, li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+}
+
+th {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2.subtitulo1, section#prof table {
+color: rgb(7, 107, 60);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2.subtitulo2, section#habi {
+    color: rgb(47, 138, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section#habi ul{
+    columns: 2;
+}
+
+h2.subtitulo3, section#edu table {
+    color: rgb(47, 91, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2.subtitulo4, section#contac{
+    color: rgb(52, 52, 116);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td {
+    margin-right: 15%;
+}

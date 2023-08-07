@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body background="fondo.jpg">
+    <div>
+        <img id="foto" src="foto cv2.jpeg" alt="Foto">
+    <h1>Giannina Di Menza</h1>
+    
+    <p>Me encuentro cursando la carrera en Licenciatura en Diseño de Comunicación visual,
+        al mismo tiempo que realizo cursos de formación básica en programación, más especificamente
+        desarrollo web. El diseño web y desarrolo web son mi area de interés. Mi objetivo es seguir 
+        la formación en desarrollo web.
+    </p>
+    <br>
+    </div>
+    <ul id="menu">
+        <li><a href="#prof">Experiencia profesional</a></li>
+        <li><a href="#habi">Habilidades y conocimientos</a></li>
+        <li><a href="#edu">Educación</a></li>
+        <li><a href="#contac">Contacto</a></li>
+    </ul>
+    <hr>
+
+    <section id="prof">
+        <h2 class="subtitulo1">Experiencia profesional</h2>
+        <table>
+            <tr>
+                <td></td>
+                <th>Empresa</th>
+                <th>Cargo</th>
+                <th>Desde-hasta</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>NaviFe</td>
+                <td>Ventas</td>
+                <td>Octubre 2018-Diciembre 2018</td>
+            </tr>
+    
+            <tr>
+                <td></td>
+                <td>Cuatroases</td>
+                <td>Ventas</td>
+                <td>Noviembre 2021-Febrero 2022</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Escaramuza</td>
+                <td>Camarera</td>
+                <td>Julio 2022-Actualidad</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section id="habi">
+        <h2 class="subtitulo2">Habilidades y conocimientos</h2>
+    <ul>
+        <li>Manejo de Illustrator</li>
+        <li>Modelado 3D en Blender</li>
+        <li>Ilustración 2D</li>
+        <li>Gestion en diseño de identidad</li>
+        <Li>Diseño editorial</Li>
+        <li>Diseño UX e UI</li>
+    </ul>
+    </section>
+    <hr>
+
+    <section id="edu">
+    <h2 class="subtitulo3">Educación</h2>
+    <table>
+        <tr>
+            <td></td>
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Desarrollo Web</td>
+            <td>Plan Ceibal</td>
+            <td>En proceso</td>
+        </tr>
+    
+        <tr>
+            <td></td>
+            <td>Lic. en Diseño de comunicación visual</td>
+            <td>UdelaR</td>
+            <td>En Proceso</td>
+        </tr>
+    </table>
+    </section>
+    <hr>
+
+    <section id="contac">
+        <h2 class="subtitulo4">Contacto</h2>
+    <form action="#" method="get">
+        <label for="para">Para:</label>
+        <input type="text" name="para" id="para"> <br>
+        <label for="tema">Temática:</label>
+        <select name="tema" id="tema">
+            <option value="" hiden selected disabled>--Elige un tema--</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option>
+        </select><br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto" id="asunto"><br>
+        <label for="cuerpo">Cuerpo:</label>
+        <textarea name="cuerpo" id="cuerpo" cols="30" rows="3"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    </section>
+</body>
+</html>
